@@ -1,52 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="arthur" content="Kiara">
-  <meta name="title" content="Frontend Mentor | Article preview component">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Article preview component</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="arthur" content="Kiara" />
+    <meta name="title" content="Frontend Mentor | Article preview component" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
 
-<body class="grid__container">
-  <main class="product__component">
-        <img src="images/drawers.jpg" alt="Green drawer forniture" title="Green drawer forniture" width="660" height="528" class="drawer__image">
-        <section class="article__container">
-          <h1 class="article__title">Shift the overall look and feel by  adding these wonderful 
-            touches to furniture in your home
-          </h1>
-          <p class="article__text">
-            Ever been in a room and felt like something was missing? Perhaps 
-            it felt slightly bare and uninviting. I’ve got some simple tips 
-            to help you make any room feel complete.
-          </p>
+  <body class="grid__container">
+    <main class="product__component">
+      <img
+        src="images/drawers.jpg"
+        alt="Green drawer forniture"
+        title="Green drawer forniture"
+        width="660"
+        height="528"
+        class="drawer__image"
+      />
+      <section class="article__container">
+        <h1 class="article__title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="article__text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
 
-          <div class="profile-group">
-            <div class="profile-info">
-              <img src="images/avatar-michelle.jpg" alt="profile picture" title="Michelle profile picture" width="175" height="175" class="profile__image">
-              <div>
-                <h2 class="profile-name">Michelle Appleton</h2>
-                <p class="profile-date"><time datetime="2020-06-08T19:00">28 Jun 2020</time></p>
-              </div>
-            </div>
-
-            <div id="modal" class="modal">
-              <div class="icons">
-                <span class="uppercase">Share</span>
-                <a href="facebook.com"><img src="./images/icon-facebook.svg" alt="facebook logo" title="facebook logo"></a>
-                <a href="twitter.com"><img src="./images/icon-twitter.svg" alt="twitter logo" title="twitter logo"></a>
-                <a href="https://pinterest.com"><img src="./images/icon-pinterest.svg" alt="pinterest logo" title="pinterest logo"></a>
-              </div>
-              <button class="button button-close"  onclick="openPop()"><img src="images/icon-share.svg" alt="share icon" title="share icon"></button>
-            </div>
-
-            <div class="btn-container"> 
-              <button class="button" onclick="openPop()"><img src="images/icon-share.svg" alt="share icon" title="share icon"></button>
+        <div class="profile-group">
+          <div class="profile-info">
+            <img
+              src="images/avatar-michelle.jpg"
+              alt="profile picture"
+              title="Michelle profile picture"
+              width="175"
+              height="175"
+              class="profile__image"
+            />
+            <div>
+              <h2 class="profile-name">Michelle Appleton</h2>
+              <p class="profile-date">
+                <time datetime="2020-06-08T19:00">28 Jun 2020</time>
+              </p>
             </div>
           </div>
-        </section> 
-  </main>
-      <script src="main.js" defer></script>
-</body>
+
+          <div id="modal" class="modal">
+            <div class="icons">
+              <span class="uppercase">Share</span>
+              <a href="facebook.com"
+                ><img
+                  src="./images/icon-facebook.svg"
+                  alt="facebook logo"
+                  title="facebook logo"
+              /></a>
+              <a href="twitter.com"
+                ><img
+                  src="./images/icon-twitter.svg"
+                  alt="twitter logo"
+                  title="twitter logo"
+              /></a>
+              <a href="https://pinterest.com"
+                ><img
+                  src="./images/icon-pinterest.svg"
+                  alt="pinterest logo"
+                  title="pinterest logo"
+              /></a>
+            </div>
+            <button class="button button-close" onclick="openPop()">
+              <img
+                src="images/icon-share.svg"
+                alt="share icon"
+                title="share icon"
+              />
+            </button>
+          </div>
+
+          <div class="btn-container">
+            <button class="button" onclick="openPop()">
+              <img
+                src="images/icon-share.svg"
+                alt="share icon"
+                title="share icon"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js" defer></script>
+  </body>
 </html>
